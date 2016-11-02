@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleNumberProgressBar">
+        <attr name="circleprogress_reache_color" format="color"/>
+        <attr name="circleprogress_reache_height" format="dimension"/>
+        <attr name="circleprogress_unreache_color" format="color"/>
+        <attr name="circleprogress_unreache__height" format="dimension"/>
+        <attr name="circleprogress_text_color" format="color"/>
+        <attr name="circleprogress_text_size" format="dimension"/>
+        <attr name="circleprogress_radius" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="NumberProgressBar">
+        <attr name="numprogress_reache_color" format="color"/>
+        <attr name="numprogress_reache_height" format="dimension"/>
+        <attr name="numprogress_unreache_color" format="color"/>
+        <attr name="numprogress_unreache__height" format="dimension"/>
+        <attr name="numprogress_text_color" format="color"/>
+        <attr name="numprogress_text_size" format="dimension"/>
+        <attr name="numprogress_offset" format="dimension"/>
+    </declare-styleable>
+</resources>

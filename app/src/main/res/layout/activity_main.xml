@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <com.mersens.view.CircleNumberProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:layout_margin="10dp"
+        app:circleprogress_radius="32dp"
+        app:circleprogress_text_size="16sp"
+        />
+    <com.mersens.view.NumberProgressBar
+        android:id="@+id/numberProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:numprogress_reache_color="#03a9f4"
+        app:numprogress_text_color="#ff5722"
+        app:numprogress_unreache_color="#673ab7"
+       />
+</LinearLayout>
